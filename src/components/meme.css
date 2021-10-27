@@ -1,0 +1,88 @@
+.container-1 {
+  margin-top: 50px;
+  width: 50vw;
+  height: 50px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container-1 img {
+  width: 100%;
+}
+.uppertext {
+  position: absolute;
+  margin-top: -33vw;
+  margin-left: 5vw;
+  z-index: 5;
+  width: 40vw;
+}
+.lowertext {
+  position: absolute;
+  margin-top: -10vw;
+  margin-left: 5vw;
+  z-index: 5;
+  width: 40vw;
+}
+.inputFeild {
+  background-color: brown;
+  height: 30px;
+  display: flex;
+}
+.inputFeild input {
+  width: 16.5vw;
+}
+@media screen and (max-width: 1300px) {
+  .container-1 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container-1 {
+    font-size: 18px;
+    width: 90vw;
+  }
+  .inputFeild input {
+    width: 45vw;
+  }
+  .lowertext {
+    position: absolute;
+    margin-top: -20vw;
+    margin-left: 5vw;
+    z-index: 5;
+    width: 80vw;
+  }
+  .uppertext {
+    position: absolute;
+    margin-top: -60vw;
+    margin-left: 5vw;
+    z-index: 5;
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container-1 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container-1 {
+    width: 90vw;
+    font-size: 10px;
+  }
+  .inputFeild input {
+    width: 45vw;
+  }
+  .lowertext {
+    position: absolute;
+    margin-top: -18vw;
+    margin-left: 2vw;
+    z-index: 5;
+  }
+  .uppertext {
+    position: absolute;
+    margin-top: -55vw;
+    margin-left: 2vw;
+    z-index: 5;
+  }
+}
